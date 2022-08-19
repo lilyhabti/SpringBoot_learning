@@ -29,11 +29,11 @@ public class PatientsMvcApplication {
 					new Patient(null,"Fatiha",new Date(),false,32));
 			patientRepository.save(
 					new Patient(null,"Youssef",new Date(),true,42));
-			
-			patientRepository.findAll().forEach(p ->{
-				
-				System.out.println(p.getNom());
-			});
+//			
+//			patientRepository.findAll().forEach(p ->{
+//				
+//				System.out.println(p.getNom());
+//			});
 		};
 	}
 }
